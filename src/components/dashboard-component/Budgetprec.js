@@ -4,18 +4,23 @@ const Chart = require("react-google-charts").Chart;
 function Budgetprec (){
     return (
         <Chart
+        className="budget-Pie"
         width={'600px'}
         height={'400px'}
         chartType="PieChart"
         loader={<div>Loading Chart</div>}
         data={[
           ['Budget', 'How much left of your budget'],
-          ["Budget", "left", 90],
-          ["Budget","spend", 10] 
+          ["Budget left", 100],
+          ["Budget spend", 10]
 
         ]}
         options={{
           title: 'My Budget',
+          allowHtml: true, 
+          cssClassNames: {
+              tableCell: "budget-pie"
+          },
 
           pieHole: 0.6,
         }}
