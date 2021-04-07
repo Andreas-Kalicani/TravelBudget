@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Budgetprec from "./components/Budgetprec.js"; 
+import Budgetprec from "./components/dashboard-components//Budgetprec.js"; 
 var Chart = require("react-google-charts").Chart;
 
 import './App.css';
