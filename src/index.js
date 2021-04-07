@@ -2,10 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-<<<<<<< HEAD
-
-=======
->>>>>>> 5c7c96263663a8b6e6fbda228b57e9a59d9b5376
 
 
 ReactDOM.render(
