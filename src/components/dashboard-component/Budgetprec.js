@@ -11,7 +11,7 @@ function Budgetprec (){
         loader={<div>Loading Chart</div>}
         data={[
           ['Budget', 'How much left of your budget'],
-          ["Budget left", 100],
+          ["Budget left", 90],
           ["Budget spend", 10]
 
         ]}

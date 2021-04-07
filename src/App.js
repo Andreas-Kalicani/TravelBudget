@@ -1,9 +1,7 @@
+
 import React from 'react';
 import './App.css';
 import Budgetprec from './components/dashboard-component/Budgetprec';
-
-
-
 
 function App() {
   return (
