@@ -3,13 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Chart from "react-google-charts";
-// or
-import { Chart } from "react-google-charts";
-// or
-const { Chart } = require("react-google-charts");
-// or
-var Chart = require("react-google-charts").Chart;
+
 
 ReactDOM.render(
   <React.StrictMode>
