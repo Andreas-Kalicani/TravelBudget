@@ -1,14 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Budgetprec from "./componets/Budgetprec.js"; 
+import Budgetprec from "./components/Budgetprec.js"; 
 var Chart = require("react-google-charts").Chart;
+
+import './App.css';
 
 
 function App() {
   return (
     <div className="App">
-   < Budgetprec />
+    < Budgetprec />
+      <h1>Hello Budget-app</h1>
+      <p>Testing</p>
     </div>
   );
 }
